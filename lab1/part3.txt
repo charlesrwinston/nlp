@@ -1,0 +1,12 @@
+Charles Winston
+Explanation for part 3
+
+Certainly some of the most useful analytics would be based on characters and
+symbols. In order to tag these in a useful way, I used nltk to tokenize the
+novel by sentence, and for each sentence, checked for the regex I defined for
+each of the major characters and symbols. I got a list of these major characters
+and symbols from Wikipedia (all hail). After I found a sentence with a match, I
+replaced the sentence with a new string: "<content_tag>" + sentence + </content_tag>.
+Pretty simple, but it's extremely useful. Now you have endless direct quotes which
+mention the most important characters and symbols at your disposal to BS on any
+reading quiz, class discussion, or paper you have to write.
